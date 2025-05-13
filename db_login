@@ -1,0 +1,16 @@
+
+mysql> -- 2. Create a new user (replace 'appuser' and 'StrongPassword123')
+mysql> CREATE USER 'appuser'@'%' IDENTIFIED BY 'StrongPassword123';
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> -- 3. Create a database (replace 'appdb' with your app's DB name)
+mysql> CREATE DATABASE appdb;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> -- 4. Grant full privileges on that database to the user
+mysql> GRANT ALL PRIVILEGES ON appdb.* TO 'appuser'@'%';
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> -- 5. Apply the changes
+mysql> FLUSH PRIVILEGES;
+Query OK, 0 rows affected (0.02 sec)`

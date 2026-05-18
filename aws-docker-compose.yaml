@@ -4,52 +4,57 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     container_name: mysql
     restart: always
+
     env_file:
-      - ./db/.env
+      - .env_db
+    
     volumes:
       - db_data:/var/lib/mysql
-      - ./db/nm-gmt.sql:/docker-entrypoint-initdb.d/nm-gmt.sql
+      - .nm-gmt.sql:/docker-entrypoint-initdb.d/nm-gmt.sql
+
     ports:
       - "3306:3306"
+
     networks:
       - docker-network
+
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p$$MYSQL_ROOT_PASSWORD"]
       interval: 10s
       retries: 5
   
   backend:
-    build:
-      context: /home/devops/Downloads/medicaar_backend/
-      dockerfile: Dockerfile
-    image: nm-backend:v1
+    image: shadowrg99/gmt-nm-be:v1.2
     container_name: backend
     restart: always
     ports:
       - "7000:7000"
+
     env_file:
-      - /home/devops/Downloads/medicaar_backend/.env
+      - .env_be
+
     depends_on:
       mysql:
         condition: service_healthy
+
     networks:
       - docker-network
   
   frontend:
-    build: 
-      context: /home/devops/Downloads/medicaar
-      dockerfile: Dockerfile
-    image: nm-frontend:v1
+    image: shadowrg99/gmt-nm-fe:v3.1
     container_name: frontend
     restart: always
     ports: 
       - "8080:80"
-    env_file:
-      - /home/devops/Downloads/medicaar/.env
+    environment:
+      API_URL: http://35.175.70.242:7000
+
     depends_on:
       - backend
+
     networks:
       - docker-network
+
 volumes:
   db_data:
 

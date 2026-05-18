@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+      metadata:
+        labels:
+          app: backend
+      spec:
+        containers:
+        - name: backend
+          image: shadowrg99/gmt-nm-be:v1.1
+          envFrom:
+            - configMapRef:
+                name: gmt-be
+          ports:
+              - containerPort: 7000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec:
+  selector:
+    app: backend
+  type: NodePort
+  ports:
+    - port: 7000
+      targetPort: 7000
+      nodePort: 30501

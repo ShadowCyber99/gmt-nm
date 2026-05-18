@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "gmt-nm.fullname" . }}-test-connection"
+  labels:
+    {{- include "gmt-nm.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+    "helm.sh/hook-delete-policy": hook-succeeded
+spec:
+  containers:
+    - name: curl
+      image: curlimages/curl:latest
+      command: ["curl"]
+      args: ["--fail", "http://backend:{{ .Values.backend.servicePort }}"]
+  restartPolicy: Never
+

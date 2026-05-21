@@ -1,0 +1,4 @@
+.env_be
+.env_dib
+*.sql
+.env_be

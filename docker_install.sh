@@ -41,6 +41,6 @@ sleep 3
 
 echo "Install NPM and nodejs"
 
-sudo apt install npm nodejs
+sudo apt install -y  npm nodejs
 
 echo "Installation Done"

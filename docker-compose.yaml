@@ -28,7 +28,7 @@ services:
     ports:
       - "7000:7000"
     env_file:
-      - /home/devops/Downloads/medicaar_backend/.env
+      - /home/ubuntu/gmt-nm/.env_be
     depends_on:
       mysql:
         condition: service_healthy

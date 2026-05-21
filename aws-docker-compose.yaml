@@ -47,7 +47,7 @@ services:
     ports: 
       - "8080:80"
     environment:
-      API_URL: http://35.175.70.242:7000
+      API_URL: http://aws-mydocker.duckdns.org:7000
 
     depends_on:
       - backend

@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1779443020,,"wq!"
+|2,0,1779443626,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -25,20 +25,54 @@
 # Registers:
 
 # File marks:
-'0  1  100  ~/.ssh/authorized_keys
-|4,48,1,100,1779443020,"~/.ssh/authorized_keys"
-'1  1  0  ~/.ssh/known_hosts
-|4,49,1,0,1779442974,"~/.ssh/known_hosts"
-'2  8  3  ~/.gitignore
-|4,50,8,3,1779442836,"~/.gitignore"
+'0  4  22  ~/sql_file_cp.sh
+|4,48,4,22,1779443626,"~/sql_file_cp.sh"
+'1  63  0  ~/aws-docker-compose.yaml
+|4,49,63,0,1779443607,"~/aws-docker-compose.yaml"
+'2  1  100  ~/.ssh/authorized_keys
+|4,50,1,100,1779443020,"~/.ssh/authorized_keys"
+'3  1  0  ~/.ssh/known_hosts
+|4,51,1,0,1779442974,"~/.ssh/known_hosts"
+'4  8  3  ~/.gitignore
+|4,52,8,3,1779442836,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  4  22  ~/sql_file_cp.sh
+|4,39,4,22,1779443626,"~/sql_file_cp.sh"
+-'  1  0  ~/sql_file_cp.sh
+|4,39,1,0,1779443613,"~/sql_file_cp.sh"
+-'  63  0  ~/aws-docker-compose.yaml
+|4,39,63,0,1779443607,"~/aws-docker-compose.yaml"
+-'  63  0  ~/aws-docker-compose.yaml
+|4,39,63,0,1779443607,"~/aws-docker-compose.yaml"
+-'  1  0  ~/aws-docker-compose.yaml
+|4,39,1,0,1779443583,"~/aws-docker-compose.yaml"
+-'  1  0  ~/aws-docker-compose.yaml
+|4,39,1,0,1779443583,"~/aws-docker-compose.yaml"
+-'  1  100  ~/.ssh/authorized_keys
+|4,39,1,100,1779443020,"~/.ssh/authorized_keys"
+-'  1  100  ~/.ssh/authorized_keys
+|4,39,1,100,1779443020,"~/.ssh/authorized_keys"
+-'  1  100  ~/.ssh/authorized_keys
+|4,39,1,100,1779443020,"~/.ssh/authorized_keys"
 -'  1  100  ~/.ssh/authorized_keys
 |4,39,1,100,1779443020,"~/.ssh/authorized_keys"
 -'  1  0  ~/.ssh/known_hosts
 |4,39,1,0,1779442974,"~/.ssh/known_hosts"
 -'  1  0  ~/.ssh/known_hosts
 |4,39,1,0,1779442974,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1779442974,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1779442974,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1779442974,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1779442974,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1779442974,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1779442974,"~/.ssh/known_hosts"
 -'  8  3  ~/.gitignore
 |4,39,8,3,1779442836,"~/.gitignore"
 -'  8  3  ~/.gitignore
@@ -47,6 +81,54 @@
 |4,39,8,3,1779442836,"~/.gitignore"
 -'  8  3  ~/.gitignore
 |4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  8  3  ~/.gitignore
+|4,39,8,3,1779442836,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1779442808,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1779442808,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -57,6 +139,17 @@
 |4,39,1,0,1779442808,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
+
+> ~/sql_file_cp.sh
+	*	1779443625	0
+	"	4	22
+	^	4	23
+	.	4	22
+	+	4	22
+
+> ~/aws-docker-compose.yaml
+	*	1779443605	0
+	"	63	0
 
 > ~/.ssh/authorized_keys
 	*	1779443019	0

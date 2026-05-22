@@ -3,3 +3,6 @@
 *.sql
 .env_be
 .env_be
+duckdns
+duck.sh
+.ssh

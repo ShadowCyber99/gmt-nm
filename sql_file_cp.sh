@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CONTAINER_NAME="mysql"
-SQL_FILE="/home/ubuntu/db/nm-gmt.sql"
+SQL_FILE="/home/ubuntu/gmt-nm/db/nm-gmt.sql"
 CONTAINER_PATH="/tmp/nm-gmt.sql"
 MYSQL_ROOT_PASSWORD=root
 MYSQL_DATABASE=appdb
